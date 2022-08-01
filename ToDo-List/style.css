@@ -1,0 +1,159 @@
+body{
+    font-family: 'Spline Sans', sans-serif;
+}
+/* while using border box it means that padding and margin remains same */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+ul li a{
+    color: white;
+   text-decoration: none;
+}
+.header{
+    background: url("./bg-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+}
+.logo{
+    color: white;
+    font-weight: bold;
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+.container ul{
+    display: flex;
+    flex-direction: row;
+    min-height: 4vh;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.container ul li{
+    padding: 12px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    margin-left: 300px;
+}
+.main h1{
+    padding: 20px;
+    margin-left: 600px;
+}
+.btn{
+    margin-left: 600px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.todo{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+
+
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    min-height: 8vh;
+
+}
+.form input{
+    min-height: 100%;
+    padding: 8px;
+    margin: 8px;
+    outline: none;
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.text1{
+    background-color: rgb(145, 223, 223);
+    border: 2px solid cyan;
+    outline-color: cyan;
+}
+.text2{
+    cursor: pointer;
+    width: 100px;
+    background-color: black;
+    color: white;
+    padding-left: 13px;
+}
+.section-1 h1{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.section-2{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background-color: rgb(45 177 177 / 81%);
+}
+/* .bg-dark{
+    background-color: black;;
+    color: white;
+} */
+.section-2 .btn{
+    margin-right: 600px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+.form-group input{
+    padding: 0.5rem;
+}
+.section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list{
+    margin: 5px;
+    padding: 4px;
+    width: 774px;
+    display: flex;
+    flex-direction: row;
+}
+.todo-list li{
+    padding: 0.7rem;
+    background: #444;
+    color: cyan;
+    text-transform: capitalize;
+    list-style: none;
+    margin: 15px;
+    width: 900px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.todo-btn{
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
